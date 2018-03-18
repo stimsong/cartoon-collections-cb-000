@@ -15,7 +15,7 @@ def find_the_cheese(recipe)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  cheese_types.collect { |c| recipe.include?(c) c}
+  cheese_types.collect { |c| recipe.include?(c) }.include?(true)
 
 
 end
