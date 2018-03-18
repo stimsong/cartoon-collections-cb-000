@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves_numbered = []
-  puts dwarves.each_with_index { | index, item |
+  dwarves.each_with_index { | index, item |
     index = dwarves_numbered[item]}
 end
 
