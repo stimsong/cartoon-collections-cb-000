@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(veggies)
   alt_veggies = []
-  alt_veggies << veggies.each.collect { |veg|
+  alt_veggies << veggies.collect { |veg|
     veg.capitalize + "!" }
 #  alt_veggies
 end
