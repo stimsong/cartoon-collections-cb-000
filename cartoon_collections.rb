@@ -16,5 +16,5 @@ def find_the_cheese(recipe)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
   cheese_types.collect { |c| recipe.include?(c) }.include?(true)
-  return (cheese_types - recipe).size < cheese_types.size
+  (cheese_types - recipe).size < cheese_types.size
 end
