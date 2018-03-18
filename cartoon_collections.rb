@@ -8,7 +8,8 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls)
-  calls.each.include? { |call_length| call_length.length <5 }
+
+  calls.find { |call_length| call_length.size > 4 }
 end
 
 def find_the_cheese# code an argument here
